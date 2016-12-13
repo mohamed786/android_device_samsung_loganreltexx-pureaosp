@@ -44,7 +44,7 @@ TARGET_OTA_ASSERT_DEVICE := loganreltexx,loganrelte,GT-S7275R,GT-S7275B,GT-S7275
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 TARGET_RECOVERY_FSTAB := device/samsung/loganreltexx/rootdir/fstab.qcom
-TARGET_RECOVERY_INITRC := device/samsung/loganreltexx/rootdir/init.recovery.rc
+#TARGET_RECOVERY_INITRC := device/samsung/loganreltexx/rootdir/init.recovery.rc
 #TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/lcd/panel/backlight\"
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
