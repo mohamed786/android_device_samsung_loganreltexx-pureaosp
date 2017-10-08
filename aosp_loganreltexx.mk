@@ -30,6 +30,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-S7275R
 
+# Pre Built Kernel
+TARGET_PREBUILT_KERNEL := device/samsung/loganreltexx/zImage
+PRODUCT_COPY_FILES += \
+	$(TARGET_PREBUILT_KERNEL):kernel
+	
 # Set build fingerprint / ID / Product Name etc.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=loganreltexx TARGET_DEVICE=loganrelte BUILD_FINGERPRINT="samsung/loganreltexx/loganrelte:4.2.2/JDQ39/S7275RXXUANG1:user/release-keys" PRIVATE_BUILD_DESC="loganreltexx-user 4.2.2 JDQ39 S7275RXXUANG1 release-keys"
 
